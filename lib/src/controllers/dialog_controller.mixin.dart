@@ -203,7 +203,7 @@ mixin DialogController {
     final isMounted = _scaffoldContext?.mounted ?? false;
 
     if ((isContextNull || !isMounted)) {
-      throw NO_CONTEXT_ERROR;
+      throw "";
     }
 
     return !isContextNull;
